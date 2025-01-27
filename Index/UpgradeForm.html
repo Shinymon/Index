@@ -1,0 +1,70 @@
+﻿<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="veiwport" content="width=device-width, initial-scale=1.0" />
+    <title>Upgrade</title>
+</head>
+<body>
+    <h1> Upgrade Form</h1>
+    <br />
+    <br />
+    <br />
+    <br />
+    <br />
+    <div>
+        <a href="Services.html" id="service">Go back</a>
+        <fieldset>
+            <legend>Customer information</legend>
+            <label for="firstname">First Name</label>
+            <input type="text" name="firstname" id="firstname"
+                   accesskey="1" tabindex="1" />
+            <label for="lastname">Last Name</label>
+            <input type="text" name="lastname" id="lastname"
+                   accesskey="2" tabindex="2" />
+            <label for="email">Email or Phone Number</label>
+            <input type="text" name="email" id="email"
+                   accesskey="3" tabindex="3" />
+            <p>How will it be delivered?</p>
+            <select name="delivery" id="delivery">
+                <option value="Hand">Delivered by hand</option>
+                <option value="Mail">Mailed</option>
+            </select>
+            <p>Pick up Instructions</p>
+            <select name="picked" id="picked">
+                <option value="Hand">Personal pick up</option>
+                <option value="Mailed">Mailed back</option>
+            </select>
+        </fieldset>
+        <fieldset>
+            <legend>Computer information and what you what part you want upgraded</legend>
+            <p>Write information below</p>
+            <textarea name="info" rows="6" cols="50" maxlength="450"></textarea>
+            <datalist id="know">
+                <option value="I do not know">I do not know what is wrong with my computer</option>
+            </datalist>
+        </fieldset>
+        <fieldset>
+            <legend>Comments</legend>
+            <p>Write comments such as when do you want your computer ready below and any specific part you want</p>
+            <textarea name="comments" rows="6" cols="50" maxlength="450"></textarea>
+            <input type="submit" name="submitbutton" value="Sent to my Email" />
+        </fieldset>
+        <br />
+        <br />
+        <br />
+        <br />
+        <footer>
+            <hr />
+            <nav>
+                <a href="indexRevised.html">Home</a> | <a href="Services.html">Services</a> | <a href="ContactMe.html">Contact me</a>
+            </nav>
+            &copy;2025, Stargazer Company
+            <br />
+            Store Location
+            <br />
+            9999 Somewhere, Someplace City, UU 99999
+        </footer>
+    </div>
+</body>
+</html>
